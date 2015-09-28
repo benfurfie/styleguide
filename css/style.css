@@ -1,0 +1,81 @@
+body {
+	font-family: "Open Sans", sans-serif; /* This should be the actual body font */
+}
+
+.light {
+	background-color: #fff;
+	padding: 25px 50px;
+}
+
+.dark {
+	background-color: #333;
+	padding: 50px;
+}
+
+.dark p {
+	margin-bottom: 0;
+}
+
+.dark .content-title {
+	color: #fff;
+}
+
+/* Headers */
+.page-title,
+.section-title,
+.content-title
+.sub-title {
+	font-family: "Open Sans", sans-serif; /* This should be the actual header font */
+	letter-spacing: 0;
+}
+
+.page-title {
+	font-size: 36px;
+	font-weight: 700; /* This should be done using a variable */
+	margin-bottom: 18px;
+}
+
+.section-title {
+	color: #424242;
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+
+.content-title {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.sub-title {
+	font-size: 18px;
+	margin-bottom: 9px;
+}
+
+/* Links */
+
+a {
+	color: #0274be;
+	font-weight: 700;
+}
+
+a:hover {
+	color: #0274be;
+	text-decoration: underline;
+}
+
+/* Paragraphs */
+
+p {
+	margin-bottom: 16px;
+}
+
+.legal {
+	font-size: 14px;
+	font-style: italic;
+}
+
+p.white {
+	color: #fff;
+	font-weight: 300;
+}
